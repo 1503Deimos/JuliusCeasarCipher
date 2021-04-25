@@ -1,9 +1,20 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat Apr 24 22:07:12 2021
+Created on Sat Apr 24 15:12:13 2021
 
 @author: 1503Deimos
+
+This project was inspired by some code cipher projects out of 'Impractical
+Python Projects' by Lee Vaughn and 'The Code Book' by Simon Singh.  The Julius    
+Ceasar cipher works by choising a keyword or phrase, an index position, and 
+creates a plaintext - cipher key.  Then you can enter the encrypted message 
+you would like deciphered.
+
+See next project for the reverse...
+
+ex: plaintext 'abcdefghijklmnopqrstuvwxyz' keyword: joe, index 3
+cipher alpha:  xyzjoeabcdfghiklmnpqrstuvw
 """
 
 import sys
