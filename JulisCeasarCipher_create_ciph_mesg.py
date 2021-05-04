@@ -7,7 +7,7 @@ Created on Sat Apr 24 15:12:13 2021
 
 This project was inspired by some code cipher projects out of 'Impractical
 Python Projects' by Lee Vaughn and 'The Code Book' by Simon Singh.  The Julius    
-Ceasar cipher works by choising a keyword or phrase, an index position, and 
+Ceasar cipher works by choosing a keyword or phrase, an index position, and 
 creates a plaintext - cipher key.  Then you can enter a message you would 
 like encrypted.
 
@@ -57,7 +57,7 @@ def create_ciph_dict(alphabet, cipher_alphabet_no_duplicates):
 def create_cipher_message(final_key):
     plaintext = input("""
 Enter the message you would like to encode with the Julius Ceasar Cipher:
-""")
+""").lower()
     encrypted_mesg = []
     plaintext = list(plaintext)
     print(plaintext)
